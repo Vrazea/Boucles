@@ -30,7 +30,7 @@ class Program
         Console.WriteLine("Bonne Année !");
         */
         // Etape 3 : faire un compteur qui va de -4 à 2
-        
+        /*
         int count;
         count = -5;
         while (count < 2)
@@ -38,8 +38,36 @@ class Program
             count++;
             Console.WriteLine(count);
         }
-        
+        */
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
+        /*
+        int count = 0;
+        while (count < 15)
+        {
+            if (count >= 14)
+            {
+                count++;
+                Console.WriteLine(count);
+            }
+            else
+            {
+                count = count + 2;
+                Console.WriteLine(count);
+            }
+        }
+        */
+
+        for (int count = 0; count < 15; count = count+2)
+        {
+            Console.WriteLine(count);
+            if (count >= 14)
+            {
+                count++;
+                Console.WriteLine(count);
+            }
+            else continue;
+            
+        }
 
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
 

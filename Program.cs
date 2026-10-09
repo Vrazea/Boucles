@@ -9,14 +9,26 @@ class Program
          */
         
         // Etape 1 : faire un compteur qui va de 1 à 10
+        /*
         int count = 0;
         while (count < 10)
         {
             count++;
             Console.WriteLine(count);
         }
+        */
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
+        
+        int count = 6;
+        while (count > 1) 
+        {
+            count--;
+            Console.WriteLine(count);
 
+        }
+
+        Console.WriteLine("Bonne Année !");
+        
         // Etape 3 : faire un compteur qui va de -4 à 2
 
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15

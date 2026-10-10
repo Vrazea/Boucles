@@ -56,7 +56,7 @@ class Program
             }
         }
         */
-
+        /*
         for (int count = 0; count < 15; count = count+2)
         {
             Console.WriteLine(count);
@@ -68,9 +68,18 @@ class Program
             else continue;
             
         }
-
+        */
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
-
+        
+        
+        string? answer = Console.ReadLine();
+        string? saysYes = "oui";
+        while (saysYes != answer)
+        {
+            Console.ReadLine();
+        }
+        
+        
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */

@@ -10,76 +10,100 @@ class Program
         
         // Etape 1 : faire un compteur qui va de 1 à 10
         /*
-        int count = 0;
-        while (count < 10)
+        int count1 = 0;
+        while (count1 < 10)
         {
-            count++;
-            Console.WriteLine(count);
+            count1++;
+            Console.WriteLine(count1);
+        }
+        */
+        /*
+        for (int i = 1; i <= 10; i++) // Correction
+        {
+            Console.WriteLine(i);
         }
         */
         // Etape 2 : faire un décompte qui va de 5 à 1 puis qui dit "Bonne année !"
         /*
-        int count = 6;
-        while (count > 1) 
+        int count2 = 6;
+        while (count2 > 1) 
         {
-            count--;
-            Console.WriteLine(count);
+            count2--;
+            Console.WriteLine(count2);
 
+        }
+        
+        Console.WriteLine("Bonne Année !");
+        */
+        /*
+        for (int i = 5; i >= 5; i--) // Correction
+        {
+            Console.WriteLine(i);
         }
 
         Console.WriteLine("Bonne Année !");
         */
         // Etape 3 : faire un compteur qui va de -4 à 2
         /*
-        int count;
-        count = -5;
-        while (count < 2)
+        int count3;
+        count3 = -5;
+        while (count3 < 2)
         {
-            count++;
-            Console.WriteLine(count);
+            count3++;
+            Console.WriteLine(count3);
+        }
+        */
+        /*
+        for (int i = -4; i <= 2; i++) //Correction
+        {
+            Console.WriteLine(i);
         }
         */
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
         /*
-        int count = 0;
-        while (count < 15)
+        int count4 = 0;
+        while (count4 < 15)
         {
-            if (count >= 14)
+            if (count4 >= 14)
             {
-                count++;
-                Console.WriteLine(count);
+                count4++;
+                Console.WriteLine(count4);
             }
             else
             {
-                count = count + 2;
-                Console.WriteLine(count);
+                count4 = count4 + 2;
+                Console.WriteLine(count4);
             }
         }
-        */
-        /*
-        for (int count = 0; count < 15; count = count+2)
+        
+        for (int count5 = 0; count5 < 15; count5 = count5+2)
         {
-            Console.WriteLine(count);
-            if (count >= 14)
+            Console.WriteLine(count5);
+            if (count5 >= 14)
             {
-                count++;
-                Console.WriteLine(count);
+                count5++;
+                Console.WriteLine(count5);
             }
             else continue;
             
         }
         */
+        /*
+        for (int i = 0; i <= 15; i += 2)
+        {
+            Console.WriteLine(i);
+        }
+        */
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
         
-        
-        string? answer = Console.ReadLine();
-        string? saysYes = "oui";
-        while (saysYes != answer)
+        /*
+        string? answer;
+        do
         {
-            Console.ReadLine();
-        }
-        
-        
+            Console.WriteLine(" tu veux sortir ? ");
+            answer = Console.ReadLine();
+        } while (answer != "oui");
+        */
         /*
          * Après votre dernier commit, faites un push de votre projet pour qu'il soit accessible sur github.com
          */
